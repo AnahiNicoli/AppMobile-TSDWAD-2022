@@ -68,6 +68,6 @@ BudgetWise se distribuye bajo la licencia [MIT](LICENSE.md). Consulte el archivo
 
 ## Contacto
 
-Si tienes preguntas, comentarios o sugerencias, no dudes en contactarnos a través de Github o por correo electrónico a budgetwise@example.com.
+Si tienes preguntas, comentarios o sugerencias, no dudes en contactarnos a través de Github o por correo electrónico a budgetwise@gmail.com.
 
 **¡Gracias por usar BudgetWise y por ser parte de nuestra comunidad de usuarios!**
