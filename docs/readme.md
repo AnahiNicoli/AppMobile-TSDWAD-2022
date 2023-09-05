@@ -23,7 +23,7 @@ Agradecemos las contribuciones de la comunidad. Si deseas contribuir al desarrol
 
 ## Licencia
 
-**Budget Wise** está bajo la licencia MIT. Consulta el archivo [LICENSE](main/license.md) para obtener más información.
+**Budget Wise** está bajo la licencia MIT. Consulta el archivo [LICENSE](https://github.com/AnahiNicoli/AppMobile-TSDWAD-2022/blob/main/LICENSE) para obtener más información.
 
 ## Información de Contacto
 
