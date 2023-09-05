@@ -12,15 +12,15 @@ BudgetWise es una aplicación para dispositivos Android que simplifica la tarea 
 
 Este proyecto es desarrollado en colaboración por un equipo de siete integrantes, cada uno desempeñando un papel fundamental en el desarrollo y la creación de BudgetWise.
 
-| Nombre y Apellido       | Github                                      | Skills  |
+| Nombre y Apellido       | Github                                      | Roles |
 |-------------------------|---------------------------------------------|-----------------------------|
-| Anahí Nícoli             | [AnahiNicoli](https://github.com/AnahiNicoli) | Front, UX/UI                |
-| Pablo Jeremías Novillo   | [PNovillo](https://github.com/PNovillo)       | Front                       |
-| Martín Sánchez           | [angelsmart86](https://github.com/angelsmart86) | Front                       |
-| Augusto Dizanzo         | [ADizanzo](https://github.com/ADizanzo)       | Front                       |
-| Alejandro Leyton         | [leytonale](https://github.com/leytonale)     | Front, Back, QA             |
-| William Leyton           | [Wleyton89](https://github.com/Wleyton89)     | Front, Back, QA             |
-| Luis Fernando Ramos     | [fernandoramos10](https://github.com/fernandoramos10) | Front                       |
+| Anahí Nícoli             | [AnahiNicoli](https://github.com/AnahiNicoli) | Scrum,DEV, UX/UI                |
+| Pablo Jeremías Novillo   | [PNovillo](https://github.com/PNovillo)       | DEV, UX/UI                       |
+| Martín Sánchez           | [angelsmart86](https://github.com/angelsmart86) | DEV                     |
+| Augusto Dizanzo         | [ADizanzo](https://github.com/ADizanzo)       | DEV                     |
+| Alejandro Leyton         | [leytonale](https://github.com/leytonale)     | PO ,DEV, QA             |
+| William Leyton           | [Wleyton89](https://github.com/Wleyton89)     | DEV, QA             |
+| Luis Fernando Ramos     | [fernandoramos10](https://github.com/fernandoramos10) | DEV                       |
 
 ## Características Principales
 
