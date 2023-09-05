@@ -23,12 +23,12 @@ Agradecemos las contribuciones de la comunidad. Si deseas contribuir al desarrol
 
 ## Licencia
 
-**Budget Wise** está bajo la licencia MIT. Consulta el archivo [LICENSE](license.md) para obtener más información.
+**Budget Wise** está bajo la licencia MIT. Consulta el archivo [LICENSE](main/license.md) para obtener más información.
 
 ## Información de Contacto
 
 - Sitio web: [www.budgetwise.com](https://www.budgetwise.com)
-- GitHub del PO/Scrum Master: [Nombre del PO/Scrum Master en GitHub](https://github.com/nombre-del-po)
+- GitHub del PO/Scrum Master: [PO- Alejandro LeytoN](https://github.com/leytonale)[SM-Anahi Nicoli](https://github.com/AnahiNicoli)
 - Twitter: [@BudgetWiseApp](https://twitter.com/BudgetWiseApp)
 
 ¡Gracias por utilizar **Budget Wise**!
