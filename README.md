@@ -60,7 +60,7 @@ A medida que BudgetWise evoluciona, el equipo tiene la intención de agregar nue
 
 ## Contribuciones
 
-Este proyecto es el resultado del esfuerzo colaborativo de los siete integrantes del equipo. Si estás interesado en contribuir, puedes hacerlo a través de solicitudes de extracción (pull requests) en [Github](https://github.com/tuusuario/BudgetWise).
+Este proyecto es el resultado del esfuerzo colaborativo de los siete integrantes del equipo. Si estás interesado en contribuir, puedes hacerlo a través de pull requests, Mas informacion en [Contribution-Guide.md](https://github.com/AnahiNicoli/AppMobile-TSDWAD-2022/blob/main/docs/contribution-guide.md).
 
 ## Licencia
 
