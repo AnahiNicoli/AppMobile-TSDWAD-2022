@@ -8,10 +8,8 @@ En esta carpeta, encontrarás información importante y documentación relaciona
 
 - [Guía de Usuario](user-guide.md): Aprende cómo utilizar **Budget Wise** con nuestra guía detallada para usuarios.
 - [Especificaciones Técnicas](technical-specs.md): Explora la arquitectura técnica y los detalles de implementación de **Budget Wise**.
-- [Especificación de Requerimientos (PDF)](requirements-spec.pdf): Descarga la especificación de requerimientos en formato PDF.
 - [Planificaciones](planning-docs): Encuentra documentos relacionados con las planificaciones del proyecto **Budget Wise**.
 - [Diseños en Figma](figma-designs): Accede a los diseños y prototipos del proyecto en Figma.
-- [Escenarios de Uso](use-case-scenarios): Documentos que describen los escenarios de uso de la aplicación.
 - [Documentación de QA](qa-docs): Documentos relacionados con el control de calidad y pruebas del proyecto.
 - [Documentos de Negocio](business-docs): Documentos que abordan aspectos comerciales y estratégicos del proyecto.
 
