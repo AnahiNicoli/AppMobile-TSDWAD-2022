@@ -11,7 +11,7 @@ En esta carpeta, encontrarás información importante y documentación relaciona
 - [Planificaciones](planning-docs): Encuentra documentos relacionados con las planificaciones del proyecto **Budget Wise**.
 - [Diseños en Figma](figma-designs): Accede a los diseños y prototipos del proyecto en Figma.
 - [Documentación de QA](qa-docs): Documentos relacionados con el control de calidad y pruebas del proyecto.
-- [Documentos de Negocio](business-docs): Documentos que abordan aspectos comerciales y estratégicos del proyecto.
+- [Documentos de Negocio](business-docs): Documentos que abordan aspectos comerciales y estratégicos del proyecto, aqui tambien se encuentra el IEEE830.
 
 ## ¿Necesitas Ayuda?
 
