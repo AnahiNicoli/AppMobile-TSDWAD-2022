@@ -1,4 +1,3 @@
-```markdown
 # Guía de Contribución para el Proyecto Budget Wise
 
 ¡Gracias por tu interés en contribuir al proyecto Budget Wise! Tu ayuda es fundamental para hacer que este proyecto sea aún mejor. A continuación, encontrarás información sobre cómo puedes contribuir de manera efectiva.
@@ -57,4 +56,3 @@ Por favor, ten en cuenta que este proyecto sigue un [Código de Conducta](CODE_O
 Si tienes alguna pregunta o necesitas ayuda en cualquier etapa del proceso de contribución, no dudes en contactar al Product Owner (PO) o al Scrum Master a través de GitHub o de los canales de comunicación proporcionados.
 
 ¡Gracias por tu contribución al proyecto Budget Wise!
-```
