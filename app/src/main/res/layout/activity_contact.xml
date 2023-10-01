@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ContactActivity">
+
+
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo Electrónico"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/etNombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etAsunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Asunto"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/etCorreo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mensaje"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@id/etAsunto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        app:layout_constraintTop_toBottomOf="@id/etMensaje"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+    <LinearLayout
+        android:id="@+id/iconBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/navegarAHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/home"
+            android:clickable="true"
+            android:contentDescription="Home"
+            android:onClick="navegarAHome" />
+
+        <ImageView
+            android:id="@+id/clientes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/clientes"
+            android:clickable="true"
+            android:contentDescription="ListaClientes"
+            android:onClick="navegarAListaClientes" />
+
+        <ImageView
+            android:id="@+id/productos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/productos"
+            android:clickable="true"
+            android:contentDescription="Productos"
+            android:onClick="navegarAProductos" />
+
+        <ImageView
+            android:id="@+id/verMas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/perfil"
+            android:clickable="true"
+            android:contentDescription="Mas"
+            android:onClick="navegarAVerMas" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
