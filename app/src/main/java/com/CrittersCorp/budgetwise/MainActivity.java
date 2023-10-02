@@ -1,65 +1,114 @@
 package com.CrittersCorp.budgetwise;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Menu;
 
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.navigation.NavigationView;
-
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.CrittersCorp.budgetwise.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    private AppBarConfiguration mAppBarConfiguration;
-    private ActivityMainBinding binding;
+
+    //private Button btnAgregarProducto;
+    //private Button btnAgregarServicio;
+    //private Button btnAgregarCliente;
+    //private Button btnListaClientes;
+    //private Button btnContacto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        //btnAgregarProducto = findViewById(R.id.btnAgregarProducto);
+        //btnAgregarServicio = findViewById(R.id.btnAgregarServicio);
+        //btnAgregarCliente = findViewById(R.id.btnAgregarCliente);
+        //btnListaClientes = findViewById(R.id.btnListaClientes);
+        //btnContacto = findViewById(R.id.btnContacto);
+        //navegarAHome = findViewById(R.id.NavegarAHome);
 
-        setSupportActionBar(binding.appBarMain.toolbar);
-        binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-        DrawerLayout drawer = binding.drawerLayout;
-        NavigationView navigationView = binding.navView;
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
-                .setOpenableLayout(drawer)
-                .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
-        NavigationUI.setupWithNavController(navigationView, navController);
+
+        // OnClickListener botón "Agregar Producto"
+        //btnAgregarProducto.setOnClickListener(new View.OnClickListener() {
+        //@Override
+        //public void onClick(View view) {
+        // Abrir la actividad de agregar producto
+        //Intent intent = new Intent(MainActivity.this, AgregarProductoActivity.class);
+        //startActivity(intent);
+        //}
+        //});
+
+        // OnClickListener botón "Agregar Servicio"
+        //btnAgregarServicio.setOnClickListener(new View.OnClickListener() {
+        //@Override
+        //public void onClick(View view) {
+        // Abrir la actividad de agregar servicio
+        //Intent intent = new Intent(MainActivity.this, AgregarServicioActivity.class);
+        //startActivity(intent);
+        // }
+        // });
+
+        // OnClickListener botón "Agregar Cliente"
+        //btnAgregarCliente.setOnClickListener(new View.OnClickListener() {
+        //@Override
+        //public void onClick(View view) {
+        //Intent intent = new Intent(MainActivity.this, AgregarClienteActivity.class);
+        //startActivity(intent);
+        //}
+        //});
+
+        // OnClickListener botón "Lista de Clientes"
+        //btnListaClientes.setOnClickListener(new View.OnClickListener() {
+        // @Override
+        // public void onClick(View view) {
+        // Intent intent = new Intent(MainActivity.this, ListaClientesActivity.class);
+        //  startActivity(intent);
+        // }
+        //  });
+
+        // OnClickListener botón "Contacto"
+        //btnContacto.setOnClickListener(new View.OnClickListener() {
+        //@Override
+        //public void onClick(View view) {
+        //Intent intent = new Intent(MainActivity.this, ContactActivity.class);
+        //startActivity(intent);
+        //}
+        //});
+
+        // OnClickListener botón "Navegar a Home"
+        //navegarAHome.setOnClickListener(new View.OnClickListener() {
+        //@Override
+        //public void onClick(View view) {
+        //Intent intent = new Intent(this, MainActivity.class);
+        //startActivity(intent);
+        //finish(); // Cierra la actividad actual
+        //}
+        //});
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+
+
+    // Método para navegar a Home
+    public void navegarAHome(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
-                || super.onSupportNavigateUp();
+    // Método para navegar a Clientes
+    public void navegarAClientes(View view) {
+        Intent intent = new Intent(this, ClienteActivity.class);
+        startActivity(intent);
+    }
+
+    // Método para navegar a  Productos
+    public void navegarAProductos(View view) {
+        Intent intent = new Intent(this, ArticuloServiciosActivity.class);
+        startActivity(intent);
+    }
+
+    // Método para navegar a 'Ver Más'
+    public void navegarAVerMas(View view) {
+        Intent intent = new Intent(this, ContactActivity.class);
+        startActivity(intent);
     }
 }

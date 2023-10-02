@@ -23,6 +23,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ContactActivity" />
+
+        <activity android:name=".AgregarClienteActivity">
+        </activity>
+
+        <activity android:name=".ListaClientesActivity">
+        </activity>
+
+        <activity android:name=".AgregarProductoActivity">
+        </activity>
+
+        <activity android:name=".AgregarServicioActivity">
+        </activity>
+
+        <activity android:name=".NuevoClienteActivity">
+        </activity>
+
+        <activity android:name=".ClienteActivity">
+        </activity>
+        <activity android:name=".Cliente">
+        </activity>
+
+        <activity android:name=".ArticuloServiciosActivity">
+        </activity>
     </application>
 
 </manifest>
