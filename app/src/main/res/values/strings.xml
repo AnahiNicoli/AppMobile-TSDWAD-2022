@@ -1,13 +1,71 @@
 <resources>
+<<<<<<< Updated upstream
     <string name="app_name">Budget Wise</string>
+=======
+>>>>>>> Stashed changes
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+<<<<<<< Updated upstream
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+=======
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- ACTIVITY 1 -->
+    <string name="app_name">BudgetWiseActivities</string>
+    <string name="budget">Budget</string>
+    <string name="wise">Wise</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="iniciar_sesion">Inicie Sesión</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_registro">Registro</string>
+
+    <!-- PUBLICIDAD -->
+    <string name="copyright_2023_critters_corp">Copyright 2023 - CRITTERS CORP</string>
+    <string name="version">Versión 1.0.1</string>
+
+    <!-- ACTIVITY 2  -->
+    <string name="login">Login</string>
+    <string name="registro">Registro</string>
+    <string name="btn_volver">Volver</string>
+
+
+    <!-- BOTONES -->
+
+    <string name="btn_inicio_google">Iniciar con Google</string>
+
+    <string name="olvidaste_tu_contrasena">¿Olvidaste tu contraseña?</string>
+    <string name="click_aqui">Click aquí</string>
+    <string name="correo">Correo</string>
+    <string name="contraseña">Contraseña</string>
+
+    <!-- ACTIVITY 3 -->
+    <string name="no_tiene_cuenta">¿No tiene cuenta?</string>
+    <string name="regístrese_ahora">Regístrese ahora</string>
+    <string name="nombre">Nombre</string>
+    <string name="teléfono">Teléfono</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+
+    <!-- CHECKED TEXT VIEW -->
+    <string name="leer_aceptar">He leído y acepto los</string>
+    <string name="términos_y_condiciones">Términos y Condiciones</string>
+    <string name="política_de_privacidad">He leído y acepto los términos y
+        condiciones
+        para el tratamiento de sus datos
+        personales contenidos en la</string>
+    <string name="política_de_privacidad_web">Política de Privacidad Web</string>
+
+    <!-- BOTONES -->
+    <string name="regístrate_aquí">Regístrate aquí</string>
+
+>>>>>>> Stashed changes
 </resources>

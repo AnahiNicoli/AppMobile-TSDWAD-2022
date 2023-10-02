@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< Updated upstream
     <style name="Theme.BudgetWise" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+=======
+    <style name="Theme.budgetwise" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+>>>>>>> Stashed changes
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -14,7 +18,11 @@
         <!-- Customize your theme here. -->
     </style>
 
+<<<<<<< Updated upstream
     <style name="Theme.BudgetWise.NoActionBar">
+=======
+    <style name="Theme.budgetwise.NoActionBar">
+>>>>>>> Stashed changes
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

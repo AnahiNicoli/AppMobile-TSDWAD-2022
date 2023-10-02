@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_activity_contact.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_degradado.jpg.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/degradado.jpg"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_activity_agregar_servicio.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_agregar_servicio.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_productos.png.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/productos.png"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_clientes.png.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/clientes.png"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/xml_backup_rules.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_atras.png.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/atras.png"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_home.png.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/home.png"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_fragment_gallery.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_activity_registro3.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_registro3.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/menu_activity_main_drawer.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_activity_iniciar_sesion2.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_iniciar_sesion2.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_activity_lista_clientes.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_lista_clientes.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/xml_data_extraction_rules.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_nav_header_main.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_activity_agregar_cliente.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_agregar_cliente.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_volver.png.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/volver.png"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_articulo_servicios_activity.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/articulo_servicios_activity.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_content_main.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_activity_nuevo_cliente.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_nuevo_cliente.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_app_bar_main.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_fragment_home.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/navigation_mobile_navigation.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_fragment_slideshow.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/menu_main.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/menu/main.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_activity_cliente.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_cliente.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_side_nav_bar.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_perfil.png.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/perfil.png"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_activity_agregar_producto.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_agregar_producto.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_mas.png.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/mas.png"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/layout_activity_main.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-merged_res-44:/drawable_background2.jpg.flat",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/drawable/background2.jpg"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/activity_agregar_producto.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_agregar_producto.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/nav_header_main.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/activity_cliente.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_cliente.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/fragment_slideshow.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/activity_contact.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/app_bar_main.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/activity_agregar_servicio.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_agregar_servicio.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/activity_registro3.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_registro3.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/articulo_servicios_activity.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/articulo_servicios_activity.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/activity_iniciar_sesion2.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_iniciar_sesion2.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/activity_agregar_cliente.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_agregar_cliente.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/content_main.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/activity_nuevo_cliente.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_nuevo_cliente.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/activity_lista_clientes.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/activity_lista_clientes.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/fragment_gallery.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.CrittersCorp.budgetwise.app-mergeDebugResources-43:/layout/fragment_home.xml",
+        "source": "com.CrittersCorp.budgetwise.app-main-46:/layout/fragment_home.xml"
+    }
+]

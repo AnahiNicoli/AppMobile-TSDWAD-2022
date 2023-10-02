@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.CrittersCorp.budgetwise.app-mergeDebugResources-42:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\LEYTON-PC\\.gradle\\caches\\transforms-3\\35bb45939b05304bc97c14f63501a0a5\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
