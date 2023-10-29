@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">PruebaApp</string>
+    <string name="notificaciones">mis_notificaciones</string>
+    <string name="mis_notificaciones">Notificaciones</string>
+    <string name="borrar_notificaciones">borrar_notificaciones</string>
+    <string name="borrarNotificaciones">borrarNotificaciones</string>
+    <string name="eliminarPerfil">eliminar perfil</string>
+    <string name="teefono">Teléfono</string>
+    <string name="telefono">Telefono</string>
+    <string name="email">Email</string>
+    <string name="dni">DNI</string>
+    <string name="domicilio">Domicilio</string>
+    <string name="codigopostal">C P</string>
+    <string name="provincia">Provincia</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="web">Web</string>
+    <string name="editarPerfil">Editar perfil</string>
+    <string name="ciudad_description">Ciudad</string>
+    <string name="provincia_description">Provincia</string>
+    <string name="telefono1">Telefono</string>
 </resources>
