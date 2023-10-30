@@ -9,14 +9,111 @@
     tools:context=".UserProfileActivity">
 
 
+    <Button
+        android:id="@+id/edit_ciudad"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:backgroundTint="@color/material_dynamic_primary100"
+        android:drawableTint="@color/black"
+        android:text="x"
+        android:textColor="#545454"
+        android:textColorLink="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_prov"
+        app:strokeColor="@color/black" />
+
+    <Button
+        android:id="@+id/edit_web"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:backgroundTint="@color/material_dynamic_primary100"
+        android:drawableTint="@color/black"
+        android:text="x"
+        android:textColor="#545454"
+        android:textColorLink="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_ciudad"
+        app:strokeColor="@color/black" />
+
+    <Button
+        android:id="@+id/edit_cp"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/material_dynamic_primary100"
+        android:drawableTint="@color/black"
+        android:text="x"
+        android:textColor="#545454"
+        android:textColorLink="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_domic"
+        app:strokeColor="@color/black" />
+
+    <Button
+        android:id="@+id/edit_prov"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:backgroundTint="@color/material_dynamic_primary100"
+        android:drawableTint="@color/black"
+        android:text="x"
+        android:textColor="#545454"
+        android:textColorLink="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_cp"
+        app:strokeColor="@color/black" />
+
+    <Button
+        android:id="@+id/edit_dni"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:backgroundTint="@color/material_dynamic_primary100"
+        android:drawableTint="@color/black"
+        android:text="x"
+        android:textColor="#545454"
+        android:textColorLink="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_mail"
+        app:strokeColor="@color/black" />
+
+    <Button
+        android:id="@+id/edit_domic"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:backgroundTint="@color/material_dynamic_primary100"
+        android:drawableTint="@color/black"
+        android:text="x"
+        android:textColor="#545454"
+        android:textColorLink="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_dni"
+        app:strokeColor="@color/black" />
+
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/web2"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="4dp"
         android:hint="@string/web"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintHorizontal_bias="0.719"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ciudad2" />
 
@@ -24,47 +121,22 @@
         android:id="@+id/cp2"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:layout_marginTop="1dp"
         android:hint="@string/codigopostal"
-        app:layout_constraintEnd_toEndOf="@+id/prov2"
-        app:layout_constraintHorizontal_bias="0.821"
-        app:layout_constraintStart_toStartOf="@+id/prov2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/domic2" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/domic2"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:layout_marginTop="2dp"
         android:hint="@string/domicilio"
-        app:layout_constraintEnd_toEndOf="@+id/cp2"
-        app:layout_constraintHorizontal_bias="0.821"
-        app:layout_constraintStart_toStartOf="@+id/cp2"
-        app:layout_constraintTop_toBottomOf="@+id/dni2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_dni"
         tools:ignore="DuplicateSpeakableTextCheck" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/dni2"
-        android:layout_width="254dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="1dp"
-        android:hint="@string/dni"
-        app:layout_constraintEnd_toEndOf="@+id/domic2"
-        app:layout_constraintHorizontal_bias="0.821"
-        app:layout_constraintStart_toStartOf="@+id/domic2"
-        app:layout_constraintTop_toBottomOf="@+id/email2"
-        tools:ignore="DuplicateSpeakableTextCheck" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/email2"
-        android:layout_width="254dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="1dp"
-        android:hint="@string/email"
-        app:layout_constraintEnd_toEndOf="@+id/dni2"
-        app:layout_constraintHorizontal_bias="0.821"
-        app:layout_constraintStart_toStartOf="@+id/dni2"
-        app:layout_constraintTop_toBottomOf="@+id/tel1" />
 
     <ImageView
         android:id="@+id/iconoSuperiorIzquierdo"
@@ -72,6 +144,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:contentDescription="Volver"
+        android:onClick="navegarAPresupuestos"
         android:src="@drawable/atras"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"
@@ -79,26 +152,16 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
-    <ImageView
-        android:id="@+id/borrarIconImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:onClick="@string/eliminatePerfil"
-        android:src="@drawable/delete"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
     <TextView
         android:id="@+id/usernameTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/roboto_medium"
         android:text="Nombre del Usuario"
+        android:textColor="@color/Azulito"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.271"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,6 +173,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/web"
+        android:textColor="@color/Azulito"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,6 +185,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="@string/ciudad"
+        android:textColor="@color/Azulito"
         app:layout_constraintEnd_toEndOf="@+id/ciudad2"
         app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
@@ -132,6 +197,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="@string/provincia"
+        android:textColor="@color/Azulito"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.124"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,12 +207,13 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="180dp"
         android:text="@string/email"
+        android:textColor="@color/Azulito"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tel" />
+        app:layout_constraintTop_toBottomOf="@+id/iconoSuperiorIzquierdo" />
 
     <TextView
         android:id="@+id/cp"
@@ -154,6 +221,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:text="@string/codigopostal"
+        android:textColor="@color/Azulito"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
@@ -165,10 +233,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="@string/domicilio"
+        android:textColor="@color/Azulito"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.124"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dni" />
+        app:layout_constraintTop_toBottomOf="@+id/dni2" />
 
     <TextView
         android:id="@+id/dni"
@@ -176,8 +245,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/dni"
+        android:textColor="@color/Azulito"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
@@ -191,7 +261,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iconoSuperiorIzquierdo" />
+        app:layout_constraintTop_toBottomOf="@+id/iconoSuperiorIzquierdo"
+        android:textColor="@color/Azulito" />
 
     <ImageView
         android:id="@+id/fotoperfil"
@@ -220,11 +291,10 @@
         android:id="@+id/ciudad2"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:layout_marginTop="1dp"
         android:hint="@string/ciudad"
-        app:layout_constraintEnd_toEndOf="@+id/web2"
-        app:layout_constraintHorizontal_bias="0.821"
-        app:layout_constraintStart_toStartOf="@+id/web2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/prov2"
         tools:ignore="@string/ciudad,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
 
@@ -232,23 +302,94 @@
         android:id="@+id/prov2"
         android:layout_width="254dp"
         android:layout_height="48dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="4dp"
         android:hint="@string/provincia"
-        app:layout_constraintEnd_toEndOf="@+id/ciudad2"
-        app:layout_constraintHorizontal_bias="0.821"
-        app:layout_constraintStart_toStartOf="@+id/ciudad2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cp2"
         tools:ignore="ContentDescription" />
 
     <Button
-        android:id="@+id/PerfilEdit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
+        android:id="@+id/btn_PerfilEdit"
+        android:layout_width="116dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="@color/Azulito"
         android:text="@string/editarPerfil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.383"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="254dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_tel" />
+
+    <EditText
+        android:id="@+id/dni2"
+        android:layout_width="253dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="@string/dni"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddress" />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="112dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="@color/Azulito"
+        android:text="@string/eliminarPerfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/edit_tel"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/material_dynamic_primary100"
+        android:drawableTint="@color/black"
+        android:text="x"
+        android:textColor="#545454"
+        android:textColorLink="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fotoperfil"
+        app:strokeColor="@color/black" />
+
+    <Button
+        android:id="@+id/edit_mail"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/material_dynamic_primary100"
+        android:drawableTint="@color/black"
+        android:text="x"
+        android:textColor="#545454"
+        android:textColorLink="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_tel"
+        app:strokeColor="@color/black" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

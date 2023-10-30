@@ -1,7 +1,9 @@
 package com.crittercorp.myapplication;
 
+import android.view.View;
+
 public class Perfil {
-    private String nombre;
+    private String nombreYapellido;
     private String email;
     private String dni;
     private String domicilio;
@@ -11,8 +13,8 @@ public class Perfil {
     private String telefono;
 
     // Constructor
-    public Perfil(String nombre, String email, String dni, String domicilio, String codigoPostal, String ciudad, String provincia, String telefono) {
-        this.nombre = nombre;
+    public Perfil(String nombreYapellido, String email, String dni, String domicilio, String codigoPostal, String ciudad, String provincia, String telefono) {
+        this.nombreYapellido = nombreYapellido;
         this.email = email;
         this.dni = dni;
         this.domicilio = domicilio;
@@ -22,14 +24,20 @@ public class Perfil {
         this.telefono = telefono;
     }
 
+//    btn_PerfilEdit.setOnClickListener(new View.OnClickListener()) {
+// @Override
+//               public void onClick (View v); {
+//           try {
+//                CustomerModel customerModel = new CustomerModel(-1, T_NOMBREYAPE.getText().toString(), inte)
+//  };
+//        }
+//    }
     // Métodos getters y setters para acceder a los campos
 
-    public String getNombre() {
-        return nombre;
-    }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+
+    public void setNombreYapellido(String nombreYapellido) {
+        this.nombreYapellido = nombreYapellido;
     }
 
     public String getEmail() {
